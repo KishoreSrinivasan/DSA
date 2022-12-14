@@ -1,5 +1,6 @@
 package com.problem.array;
 
+// Medium
 public class KthSmallestElement {
 	
 	public static void sort(int[] arr, int left, int right) {

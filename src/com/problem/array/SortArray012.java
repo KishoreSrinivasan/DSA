@@ -1,5 +1,6 @@
 package com.problem.array;
 
+// Easy
 public class SortArray012 {
     
     public static void sort012(int a[], int n)
