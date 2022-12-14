@@ -1,7 +1,7 @@
 package com.problem.array;
 
 // Medium
-public class KadanesAlgorithm {
+public class KadanesAlgorithm1 {
     
     // To find the sum - largest continues sub aaray
 
@@ -29,6 +29,6 @@ public class KadanesAlgorithm {
 
         int[] arr = { -47, 43, 94, -94, -93, -59, 31, -86};
 
-        System.out.println(KadanesAlgorithm.maxSubarraySum(arr, arr.length));
+        System.out.println(KadanesAlgorithm1.maxSubarraySum(arr, arr.length));
     }
 }
