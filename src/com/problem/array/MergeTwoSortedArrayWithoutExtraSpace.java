@@ -6,16 +6,17 @@ import java.util.Arrays;
 public class MergeTwoSortedArrayWithoutExtraSpace {
     
     // Algorithm
-    
-//    1) Initialize i,j,k as 0,0,n-1 where n is size of arr1 
-//    2) Iterate through every element of arr1 and arr2 using two pointers i and j respectively
-//        if arr1[i] is less than arr2[j]
-//            increment i
-//        else
-//            swap the arr2[j] and arr1[k]
-//            increment j and decrement k
-//
-//    3) Sort both arr1 and arr2 
+    /*
+    1) Initialize i,j,k as 0,0,n-1 where n is size of arr1 
+    2) Iterate through every element of arr1 and arr2 using two pointers i and j respectively
+        if arr1[i] is less than arr2[j]
+            increment i
+        else
+            swap the arr2[j] and arr1[k]
+            increment j and decrement k
+
+    3) Sort both arr1 and arr2 
+    */
     
     public static void merge(long arr1[], long arr2[], int n, int m) {
 
