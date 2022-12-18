@@ -2,7 +2,7 @@ package com.problem.array;
 
 import java.util.HashSet;
 
-// Basic
+// Basic - DSA Sheet
 public class UnionOfTwoArray {
     
     public static int doUnion(int a[], int n, int b[], int m) {

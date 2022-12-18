@@ -1,6 +1,6 @@
 package com.problem.array;
 
-// Basic
+// Basic - DSA Sheet
 public class RotateArrayByOnePosition {
     
     public static void rotate(int arr[], int n) {

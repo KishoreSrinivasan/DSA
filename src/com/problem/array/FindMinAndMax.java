@@ -1,6 +1,6 @@
 package com.problem.array;
 
-// Basic
+// Basic - DSA Sheet
 public class FindMinAndMax {
     
     static class Pair  

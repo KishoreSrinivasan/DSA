@@ -1,6 +1,6 @@
 package com.problem.array;
 
-// Easy
+// Easy - DSA Sheet
 public class ReverseTheArray {
     
     public static void reverse(int[] arr, int n) {

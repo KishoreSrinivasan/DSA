@@ -1,6 +1,6 @@
 package com.problem.array;
 
-// Medium
+// Medium - DSA Sheet
 public class KadanesAlgorithm1 {
     
     // To find the sum - largest continues sub aaray

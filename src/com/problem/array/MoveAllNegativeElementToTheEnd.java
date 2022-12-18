@@ -2,7 +2,7 @@ package com.problem.array;
 
 import java.util.ArrayList;
 
-// Easy
+// Easy - DSA Sheet
 public class MoveAllNegativeElementToTheEnd {
     
     public static void segregateElements(int arr[], int n)

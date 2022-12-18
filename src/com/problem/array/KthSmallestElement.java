@@ -1,6 +1,6 @@
 package com.problem.array;
 
-// Medium
+// Medium - DSA Sheet
 public class KthSmallestElement {
 	
 	public static void sort(int[] arr, int left, int right) {
@@ -77,6 +77,7 @@ public class KthSmallestElement {
 		int arr[] = {7, 10, 4, 3, 20, 15};
 		int k = 3;
 		
+		// sort - merge sort
 		KthSmallestElement.sort(arr, 0, arr.length-1);
 		
 		System.out.println(arr[k-1]);

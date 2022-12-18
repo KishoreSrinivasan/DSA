@@ -1,6 +1,6 @@
 package com.problem.array;
 
-// Easy
+// Easy - DSA Sheet
 public class SortArray012 {
     
     public static void sort012(int a[], int n)
