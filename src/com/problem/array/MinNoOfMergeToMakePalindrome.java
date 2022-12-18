@@ -14,6 +14,7 @@ public class MinNoOfMergeToMakePalindrome {
      But in this problem, we are asked to do it in the minimum number of operations.
      */
     
+    // slight modification on reverse of array
     static int minOperations(int arr[]) {
         
         int minOperationCount = 0;
