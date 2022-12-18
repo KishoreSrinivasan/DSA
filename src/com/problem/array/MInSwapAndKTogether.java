@@ -54,7 +54,10 @@ Output: 2
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-
+        
+        int arr[] = {2, 7, 9, 5, 8, 7, 4};
+        
+        System.out.print(MInSwapAndKTogether.minSwap(arr, arr.length, 5));
     }
 
 }
