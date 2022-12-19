@@ -17,6 +17,7 @@ public class ChocolateDistributionProblem {
               minimum number of chocolates given to a student is minimum.
      */
     
+    // Using sliding window concept
     public static long findMinDiff (int[] arr, int n, int m) {
         
         // your code here
