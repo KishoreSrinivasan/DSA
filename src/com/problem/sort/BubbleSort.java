@@ -2,6 +2,7 @@ package com.problem.sort;
 
 public class BubbleSort {
     
+    // Move the first largest element to last and second ...
     static void sort(int[] arr) {
         
         for (int i=0; i<arr.length-1; i++) {
