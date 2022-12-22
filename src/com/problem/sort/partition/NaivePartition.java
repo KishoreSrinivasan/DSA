@@ -6,10 +6,7 @@ public class NaivePartition {
           // all the element less than or equal to the given index value should come first and 
                  // remaining in second half
     
-    static void partition(int arr[], int index) {
-        
-        int high = arr.length -1;
-        int low = 0;
+    static void partition(int arr[], int low, int high, int index) {
         
         int[] temp = new int[high-low+1];
         int pos = 0;
@@ -45,7 +42,7 @@ public class NaivePartition {
         int arr[] = {5, 18, 6, 9, 12, 11, 8};
         int index = 6;
         
-        partition(arr, index);
+        partition(arr, 0, arr.length-1, index);
         
         for (int element : arr) System.out.print(element + " ");
     }
