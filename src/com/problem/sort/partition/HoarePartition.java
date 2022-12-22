@@ -12,7 +12,7 @@ public class HoarePartition {
             
             do {
                 i++;
-            } while (arr[i]<=pivot);
+            } while (arr[i]<pivot);
             
             do {
                 j--;
