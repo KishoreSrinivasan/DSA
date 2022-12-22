@@ -2,7 +2,7 @@ package com.problem.sort.partition;
 
 public class LomutoPartition {
     
-    static void partition(int arr[]) {
+    static int partition(int arr[]) {
         
         int low = 0;
         int high = arr.length - 1;
@@ -23,6 +23,8 @@ public class LomutoPartition {
         }
         
         swap(arr, ++position, high);
+        
+        return position;
     }
     
     static void swap(int arr[], int i, int j) {
