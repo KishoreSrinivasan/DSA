@@ -4,6 +4,17 @@ public class StackImplementationLinkedList {
     
     Node head;
     
+    static class Node {
+        
+        int data;
+        Node next;
+        
+        Node(int data) {
+            
+            this.data = data;
+        }
+    }
+    
     public boolean isEmpty() {
         
         if (head == null) return true;
@@ -58,16 +69,4 @@ public class StackImplementationLinkedList {
         System.out.println("Top element is " + sll.peek());
 
     }
-    
-    static class Node {
-        
-        int data;
-        Node next;
-        
-        Node(int data) {
-            
-            this.data = data;
-        }
-    }
-
 }
