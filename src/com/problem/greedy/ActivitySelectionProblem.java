@@ -7,7 +7,7 @@ public class ActivitySelectionProblem {
 
     static int optimise(int[] start, int[] end, int n) {
 
-        // this block is doing sorting using the helper:Activity class
+        // this block is doing sorting using the helper:Activity class sorting by end
         ArrayList<Activity> activity = new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
