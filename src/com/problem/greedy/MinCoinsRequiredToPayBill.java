@@ -2,7 +2,7 @@ package com.problem.greedy;
 
 import java.util.Arrays;
 
-public class MInCoinsRequiredToPayBill {
+public class MinCoinsRequiredToPayBill {
     
     static int optimise(int[] arr, int value) {
         
