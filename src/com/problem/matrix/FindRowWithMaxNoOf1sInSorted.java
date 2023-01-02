@@ -1,5 +1,7 @@
 package com.problem.matrix;
 
+// fidn the maximum row with value 1 -- row is sorted
+//used binary serach for finding the start
 public class FindRowWithMaxNoOf1sInSorted {
     
     static int maxRow(int arr[][]) {
