@@ -1,5 +1,20 @@
 package com.tutort.basic.pattern;
 
+/*
+
+1          
+0 1         
+1 0 1        
+0 1 0 1       
+1 0 1 0 1      
+0 1 0 1 0 1     
+1 0 1 0 1 0 1    
+0 1 0 1 0 1 0 1   
+1 0 1 0 1 0 1 0 1  
+0 1 0 1 0 1 0 1 0 1 
+
+*/
+
 public class PatternEleven {
 	
 	static void print(int n) {
